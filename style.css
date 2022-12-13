@@ -1,0 +1,131 @@
+* {
+    background-color:rebeccapurple;
+    flex-wrap: wrap;
+}
+.header {
+background-color: cadetblue;
+border-style: solid;
+border-color: black;
+margin: 20px;
+}
+
+.header img {
+    height: 325px;
+    width: 325px;
+}
+
+.header nav {
+    padding: 30px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h1 {
+    align-items: center;
+    color: black;
+    font-size: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: inherit;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    list-style:none;
+    background-color: inherit;
+}
+.header li {
+    background-color: inherit;
+    padding: 10px;
+}
+
+a {
+    color: black;
+    background-color: inherit;
+    font-weight: bold;
+}
+
+.symbol::after {
+    content: '\007c';
+    color: black;  
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.main {
+    margin: 20px;
+}
+
+.section h2 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    background-color:cornflowerblue;
+}
+
+.section {
+    color: black;
+    margin: 20px;
+    padding: 50px;
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section p {
+    background-color: cornflowerblue;
+}
+
+.section3 {
+    background-color: paleturquoise;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    padding: 50px;
+    position: relative;
+    color: black;
+
+}
+
+.section2 h2 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    margin: 20px;
+    padding: 50px;
+    background-color: cadetblue;
+}
+.pic1 {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    padding: 50px;
+    position: relative;
+    color: black;
+    background-color: cornflowerblue;
+    border: solid 5px; 
+}
+
+.pic2 {
+    margin: 20px;
+    border: solid 5px;
+}
+
+.section ul {
+    background-color: cornflowerblue;
+    }
+    
+    .section li {
+        background-color: cornflowerblue;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
